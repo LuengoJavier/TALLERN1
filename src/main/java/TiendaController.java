@@ -4,23 +4,40 @@ public class TiendaController {
 	private ArrayList<Tienda> tienda = new ArrayList<Tienda>();
 
 	public Tienda agregarTienda(Tienda tienda) {
-		throw new UnsupportedOperationException();
+		this.tienda.add(tienda);
+		return tienda;
 	}
 
-	public Producto agregarProducto(Producto producto) {
-		throw new UnsupportedOperationException();
+	public Producto agregarProducto(Producto producto, Tienda tienda) {
+		if (buscarProducto(producto) != null){
+			tienda.getProductos().add(producto);
+		}
+		return producto;
 	}
 
-	public Cliente agregarCliente(Cliente cliente) {
-		throw new UnsupportedOperationException();
+	public Cliente agregarCliente(Cliente cliente, Tienda tienda) {
+		if (buscarCliente(cliente) != null){
+			tienda.getClientes().add(cliente);
+		}
+		return cliente;
 	}
 
-	public Cliente buscarCliente(Cliente cliente) {
-		throw new UnsupportedOperationException();
+	public Cliente buscarCliente(Cliente cliente, Tienda tienda) {
+		for (Cliente cliente1 : tienda.getClientes()){
+			if (cliente1.equals(cliente)){
+				return cliente;
+			}
+		}
+		return null;
 	}
 
-	public Producto buscarProducto(Producto producto) {
-		throw new UnsupportedOperationException();
+	public Producto buscarProducto(Producto producto, Tienda tienda) {
+		for (Producto producto1 : tienda.getProductos()){
+			if (producto1.equals(producto)){
+				return producto;
+			}
+		}
+		return null;
 	}
 
 	public Producto buscarProductoMarca(String marca) {
@@ -36,7 +53,9 @@ public class TiendaController {
 	}
 
 	public Producto agregarProductoCompra(Producto producto, Compra compra) {
-		throw new UnsupportedOperationException();
+		compra.getProductos().add(producto);
+		return producto;
+
 	}
 
 	public void eliminarProductoCompra(Producto producto, Compra compra) {
@@ -47,8 +66,9 @@ public class TiendaController {
 		throw new UnsupportedOperationException();
 	}
 
-	public Compra agregarCompra(Compra compra) {
-		throw new UnsupportedOperationException();
+	public Compra agregarCompra(Compra compra, Tienda tienda) {
+		tienda.getCompras().add(compra);
+		return compra;
 	}
 
 	public void mostrarCompra(Compra conpra) {

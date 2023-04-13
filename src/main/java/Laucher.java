@@ -1,7 +1,9 @@
 public class Laucher {
 
 	public static void main(String[] args) {
-		throw new UnsupportedOperationException();
+		inicializar();
 	}
-	public static void inicializar()
+	public static void inicializar(){
+
+	}
 }

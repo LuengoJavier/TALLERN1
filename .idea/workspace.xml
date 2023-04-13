@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e361ef-0d3f-4829-87ef-62cb421e86c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f9e361ef-0d3f-4829-87ef-62cb421e86c9" name="Changes" comment="actualizacion">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Laucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Laucher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pantalla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pantalla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tienda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TiendaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -27,7 +35,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -39,6 +48,14 @@
       <option name="presentableId" value="Default" />
       <updated>1681394596038</updated>
     </task>
+    <task id="LOCAL-00001" summary="actualizacion">
+      <created>1681395871447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681395871447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -51,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="actualizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizacion" />
   </component>
 </project>

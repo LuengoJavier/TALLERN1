@@ -2,12 +2,25 @@ import java.util.ArrayList;
 
 public class Tienda {
 	private String direccion;
-	private ArrayList<Producto> productos = new ArrayList<Producto>();
-	private ArrayList<Cliente> clientes = new ArrayList<Cliente>();
-	private ArrayList<Compra> compras = new ArrayList<Compra>();
+	private ArrayList<Producto> productos;
+	private ArrayList<Cliente> clientes;
+	private ArrayList<Compra> compras;
 
 	public Tienda(String direccion) {
-		throw new UnsupportedOperationException();
+		this.direccion = direccion;
+		this.clientes = new ArrayList<>();
+		this.compras = new ArrayList<>();
+		this.productos = new ArrayList<>();
+	}
+	public ArrayList<Producto> getProductos(){
+		return this.productos;
+	}
+
+	public ArrayList<Cliente> getClientes(){
+		return this.clientes;
+	}
+	public ArrayList<Compra> getCompras(){
+		return this.compras;
 	}
 
 	public String getDireccion() {
